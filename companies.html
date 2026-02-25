@@ -1,0 +1,33 @@
+---
+layout: default
+title: Companies We Work With
+description: Trusted partners and clients of DBVON Data Solutions
+---
+
+<section class="page-header">
+    <div class="container">
+        <h1>Companies We Work With</h1>
+        <p>Proud to partner with leading organizations</p>
+    </div>
+</section>
+
+<section class="companies-section">
+    <div class="container">
+        <div class="companies-grid">
+            {% for company in site.data.companies %}
+            <div class="company-card">
+                <div class="company-logo">
+                    {% if company.logo %}
+                    <img src="{{ company.logo | relative_url }}" alt="{{ company.name }} logo">
+                    {% else %}
+                    <div class="company-placeholder">{{ company.name }}</div>
+                    {% endif %}
+                </div>
+                {% if company.description %}
+                <p class="company-description">{{ company.description }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

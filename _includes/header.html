@@ -1,0 +1,25 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <h1>DBVON Data Solutions</h1>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    {% for item in site.navigation %}
+                    <li>
+                        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>

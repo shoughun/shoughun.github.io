@@ -1,0 +1,33 @@
+---
+layout: default
+title: Testimonials
+description: Client testimonials and success stories from DBVON Data Solutions
+---
+
+<section class="page-header">
+    <div class="container">
+        <h1>Client Testimonials</h1>
+        <p>Hear from businesses we've helped transform their data infrastructure</p>
+    </div>
+</section>
+
+<section class="testimonials-full">
+    <div class="container">
+        <div class="testimonials-list">
+            {% for testimonial in site.data.testimonials %}
+            <div class="testimonial-full-card">
+                <div class="testimonial-quote">"{{ testimonial.quote }}"</div>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <strong>{{ testimonial.name }}</strong>
+                        <span class="author-company">{{ testimonial.company }}</span>
+                        {% if testimonial.role %}
+                        <span class="author-role">{{ testimonial.role }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

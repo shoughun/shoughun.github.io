@@ -1,0 +1,24 @@
+- name: John Smith
+  company: TechCorp Inc.
+  role: CTO
+  quote: "DBVON transformed our data infrastructure. Their expertise in cloud migration and database optimization reduced our query times by 80% and cut costs significantly."
+
+- name: Sarah Johnson
+  company: DataFlow Solutions
+  role: Director of Analytics
+  quote: "Working with DBVON was a game-changer. They designed a comprehensive ETL pipeline that streamlined our data processes and enabled real-time analytics."
+
+- name: Michael Chen
+  company: Enterprise Systems
+  role: VP of Engineering
+  quote: "The team at DBVON provided exceptional support during our PostgreSQL migration. Their attention to detail and technical expertise ensured a seamless transition."
+
+- name: Emily Rodriguez
+  company: Analytics Pro
+  role: Data Science Lead
+  quote: "DBVON's data warehousing solutions gave us the foundation we needed for advanced analytics. Their architecture is scalable and performs beautifully."
+
+- name: David Thompson
+  company: CloudFirst Technologies
+  role: Infrastructure Manager
+  quote: "The DevOps practices DBVON implemented for our data platforms have dramatically improved our deployment reliability and reduced downtime."

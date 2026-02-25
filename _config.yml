@@ -1,0 +1,42 @@
+# Site Settings
+title: DBVON Data Solutions
+description: Professional data solutions, database design, cloud infrastructure, and analytics consulting
+url: https://shoughun.github.io
+baseurl: ""
+email: sandy.n.pabilonia@gmail.com
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services
+  - title: Testimonials
+    url: /testimonials
+  - title: Companies
+    url: /companies
+  - title: Contact
+    url: /contact
+
+# Social (optional)
+social:
+  github_username: shoughun
+  linkedin_username: dbvon
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

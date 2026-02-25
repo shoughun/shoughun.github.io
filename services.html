@@ -1,0 +1,41 @@
+---
+layout: default
+title: Services
+description: Comprehensive data solutions including database design, cloud infrastructure, ETL, analytics, and DevOps
+---
+
+<section class="page-header">
+    <div class="container">
+        <h1>Our Services</h1>
+        <p>Comprehensive data solutions tailored to your business needs</p>
+    </div>
+</section>
+
+<section class="services-detail">
+    <div class="container">
+        {% for service in site.data.services %}
+        <div class="service-detail-card">
+            <div class="service-detail-content">
+                <div class="service-icon-large">{{ service.icon }}</div>
+                <h2>{{ service.title }}</h2>
+                <p class="service-description">{{ service.description }}</p>
+                {% if service.features %}
+                <ul class="service-features">
+                    {% for feature in service.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Transform Your Data Strategy?</h2>
+        <p>Let's discuss how we can help your business leverage data for success.</p>
+        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Get in Touch</a>
+    </div>
+</section>

@@ -1,0 +1,49 @@
+- title: Database Design & Optimization
+  icon: "🗄️"
+  description: "Expert database architecture and performance optimization to ensure your data infrastructure scales efficiently and performs at peak levels."
+  features:
+    - "Database schema design and normalization"
+    - "Performance tuning and query optimization"
+    - "Indexing strategies"
+    - "Database migration and consolidation"
+    - "Capacity planning"
+
+- title: Cloud Data Solutions
+  icon: "☁️"
+  description: "Comprehensive cloud data solutions leveraging AWS, RDS, PostgreSQL, and SQL Server to build scalable, secure, and cost-effective data platforms."
+  features:
+    - "AWS RDS setup and management"
+    - "PostgreSQL and SQL Server deployment"
+    - "Cloud migration strategies"
+    - "Multi-region data replication"
+    - "Backup and disaster recovery"
+
+- title: ETL & Data Warehousing
+  icon: "📊"
+  description: "Design and implement robust ETL processes and data warehousing solutions to centralize and transform your data for analytics."
+  features:
+    - "ETL pipeline design and development"
+    - "Data warehouse architecture"
+    - "Data integration from multiple sources"
+    - "Data quality and validation"
+    - "Incremental and batch processing"
+
+- title: Data Analytics & Reporting
+  icon: "📈"
+  description: "Transform raw data into actionable insights with custom analytics solutions and comprehensive reporting dashboards."
+  features:
+    - "Business intelligence dashboards"
+    - "Custom analytics solutions"
+    - "Data visualization"
+    - "KPI tracking and reporting"
+    - "Predictive analytics"
+
+- title: DevOps & CI/CD for Data Platforms
+  icon: "⚙️"
+  description: "Implement DevOps best practices and CI/CD pipelines specifically tailored for data platforms to ensure reliable, automated deployments."
+  features:
+    - "CI/CD pipeline setup for databases"
+    - "Infrastructure as Code (IaC)"
+    - "Automated testing and deployment"
+    - "Monitoring and alerting"
+    - "Version control for database schemas"

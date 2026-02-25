@@ -1,0 +1,57 @@
+---
+layout: default
+title: Home
+description: Professional data solutions, database design, cloud infrastructure, and analytics consulting
+---
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">DBVON Data Solutions</h1>
+            <p class="hero-tagline">Transforming Data into Strategic Insights</p>
+            <p class="hero-description">
+                Expert consulting in database design, cloud data solutions, ETL processes, 
+                and data analytics. We help businesses unlock the power of their data.
+            </p>
+            <div class="hero-cta">
+                <a href="{{ '/contact' | relative_url }}" class="btn btn-primary">Contact Us</a>
+                <a href="{{ '/services' | relative_url }}" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-preview">
+    <div class="container">
+        <h2 class="section-title">Our Core Services</h2>
+        <div class="services-grid">
+            {% for service in site.data.services limit: 4 %}
+            <div class="service-card">
+                <div class="service-icon">{{ service.icon }}</div>
+                <h3>{{ service.title }}</h3>
+                <p>{{ service.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center">
+            <a href="{{ '/services' | relative_url }}" class="btn btn-outline">View All Services</a>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-preview">
+    <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            {% for testimonial in site.data.testimonials limit: 3 %}
+            <div class="testimonial-card">
+                <div class="testimonial-quote">"{{ testimonial.quote }}"</div>
+                <div class="testimonial-author">
+                    <strong>{{ testimonial.name }}</strong>
+                    <span>{{ testimonial.company }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

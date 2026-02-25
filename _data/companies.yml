@@ -1,0 +1,23 @@
+- name: TechCorp Inc.
+  description: "Enterprise technology solutions"
+  
+- name: DataFlow Solutions
+  description: "Data analytics platform"
+  
+- name: Enterprise Systems
+  description: "Business software solutions"
+  
+- name: Analytics Pro
+  description: "Advanced analytics services"
+  
+- name: CloudFirst Technologies
+  description: "Cloud infrastructure provider"
+  
+- name: DataVision
+  description: "Business intelligence tools"
+  
+- name: CloudScale
+  description: "Scalable cloud solutions"
+  
+- name: InfoSystems
+  description: "Information systems consulting"
