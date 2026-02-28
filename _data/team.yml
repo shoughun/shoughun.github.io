@@ -1,14 +1,14 @@
 - name: Sandy
   role: Chief Data Officer
   bio: "Sandy brings over 15 years of experience in data strategy and analytics. She specializes in transforming raw data into actionable business insights and has led data initiatives for Fortune 500 companies."
-  image: "https://drive.google.com/uc?id=1JkY5shET2S749ZagNc0fqOB9gZCQZI3q"
+  image: "/assets/images/team/sandy.jpeg"
   email: "sandy.pabilonia@dbvon.com"
   linkedin: "snpabilonia"
 
 - name: Gino
   role: Chief Finance Officer
   bio: "Gino is a finance executive with extensive experience in financial modeling, budgeting, and strategic planning. He ensures our operations are financially sound and scalable."
-  image: "https://drive.google.com/uc?id=1wzwEuX2zkGSv2kwoyiZ3sRGIIqTAF99N"
+  image: "/assets/images/team/gino.jpeg"
   email: "gino.antonio@dbvon.com"
   linkedin: "gino-antonio"
 
