@@ -47,3 +47,16 @@
     - "Automated testing and deployment"
     - "Monitoring and alerting"
     - "Version control for database schemas"
+
+- title: Bookkeeping & Financial Services
+  icon: "💰"
+  description: "Professional virtual assistant bookkeeping services using QuickBooks to manage your finances, maintain accurate records, and ensure compliance with accounting standards."
+  features:
+    - "QuickBooks setup and configuration"
+    - "Daily bookkeeping and transaction entry"
+    - "Accounts payable and receivable management"
+    - "Financial statement preparation"
+    - "Bank reconciliation and month-end closing"
+    - "Payroll processing and management"
+    - "Tax preparation support"
+    - "Financial reporting and analysis"
