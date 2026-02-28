@@ -584,9 +584,12 @@ section {
     background: white;
     border-radius: 0.5rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow: visible;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-card:hover {
@@ -595,10 +598,17 @@ section {
 }
 
 .team-image-wrapper {
-    width: 100%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     overflow: hidden;
     background: var(--bg-light);
+    margin: -50px auto 1.5rem;
+    border: 5px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-image {
@@ -613,13 +623,18 @@ section {
 }
 
 .team-info {
-    padding: 2rem;
+    padding: 2rem 2rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-name {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--text-color);
+    text-align: center;
 }
 
 .team-role {
@@ -627,13 +642,15 @@ section {
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .team-bio {
     color: var(--text-light);
     line-height: 1.6;
     margin-bottom: 1.5rem;
-    text-align: left;
+    text-align: center;
+    max-width: 100%;
 }
 
 .team-contact {
@@ -642,6 +659,7 @@ section {
     gap: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
+    width: 100%;
 }
 
 .team-email,
@@ -667,10 +685,16 @@ section {
 @media (max-width: 768px) {
     .team-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 3rem;
     }
     
     .team-image-wrapper {
-        height: 250px;
+        width: 180px;
+        height: 180px;
+        margin: -40px auto 1.5rem;
+    }
+    
+    .team-info {
+        padding: 2rem 1.5rem;
     }
 }
