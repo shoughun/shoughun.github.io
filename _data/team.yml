@@ -1,0 +1,20 @@
+- name: Sandy
+  role: Chief Data Officer
+  bio: "Sandy brings over 15 years of experience in data strategy and analytics. She specializes in transforming raw data into actionable business insights and has led data initiatives for Fortune 500 companies."
+  image: "https://i.pravatar.cc/400?img=47"
+  email: "sarah.chen@dbvon.com"
+  linkedin: "sarah-chen"
+
+- name: Gino
+  role: Chief Finance Officer
+  bio: "Gino is a finance executive with extensive experience in financial modeling, budgeting, and strategic planning. He ensures our operations are financially sound and scalable."
+  image: "https://i.pravatar.cc/400?img=12"
+  email: "michael.rodriguez@dbvon.com"
+  linkedin: "michael-rodriguez"
+
+- name: Trojan
+  role: Senior Software Engineer
+  bio: "David is a full-stack engineer specializing in cloud infrastructure and database systems. He has architected scalable solutions for enterprise clients using AWS, PostgreSQL, and modern DevOps practices."
+  image: "https://i.pravatar.cc/400?img=33"
+  email: "david.kim@dbvon.com"
+  linkedin: "david-kim"
