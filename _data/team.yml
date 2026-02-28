@@ -15,6 +15,6 @@
 - name: Trojan
   role: Senior Software Engineer
   bio: "David is a full-stack engineer specializing in cloud infrastructure and database systems. He has architected scalable solutions for enterprise clients using AWS, PostgreSQL, and modern DevOps practices."
-  image: "https://i.pravatar.cc/400?img=33"
+  image: "/assets/images/team/trojan.png"
   email: "trojan@dbvon.com"
   linkedin: "trojan"
