@@ -4,7 +4,7 @@
             <a href="{{ '/' | relative_url }}" class="logo">
                 <h1>DBVON Data Solutions</h1>
             </a>
-            <nav class="main-nav">
+            <nav class="main-nav" id="main-nav">
                 <ul>
                     {% for item in site.navigation %}
                     <li>
@@ -15,7 +15,7 @@
                     {% endfor %}
                 </ul>
             </nav>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
                 <span></span>
                 <span></span>
                 <span></span>

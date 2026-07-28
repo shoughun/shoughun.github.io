@@ -3,9 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const mainNav = document.querySelector('.main-nav');
     
-    if (mobileMenuToggle) {
+    if (mobileMenuToggle && mainNav) {
         mobileMenuToggle.addEventListener('click', function() {
-            mainNav.classList.toggle('active');
+            const isOpen = mainNav.classList.toggle('active');
+            mobileMenuToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        mainNav.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                mainNav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+            });
         });
     }
     
